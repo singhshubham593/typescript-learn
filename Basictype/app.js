@@ -1,4 +1,3 @@
-"use strict";
 // Basic Types 
 /*
 => Primitive types are basic immutable data types. They are stored directly in memory (stack) and compared by value.
@@ -20,8 +19,8 @@ Compare by	    Value (===)
 Copy behavior	Creates a separate copy
 */
 // Example of primitive types
-let a = 10;
-let b = a;
+var a = 10;
+var b = a;
 b = 20;
 console.log(a); // 10 (a is unaffected)
 /*
@@ -39,8 +38,8 @@ Mutable?	✅ Mutable
 Compare by	Reference (memory address)
 Copy behavior	Creates a reference to the same object
 */
-let obj1 = { name: "Alice" };
-let obj2 = obj1;
+var obj1 = { name: "Alice" };
+var obj2 = obj1;
 obj2.name = "Bob";
 console.log(obj1.name); // Bob (obj1 is affected)
 /*
