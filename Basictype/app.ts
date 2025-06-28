@@ -24,6 +24,7 @@ let a = 10;
 let b = a;
 b = 20;
 console.log(a); // 10 (a is unaffected)
+console.log(b); //20
 
 /*
 =>Reference types are objects that store a reference (memory address) to the actual data. They are mutable and compared by reference.
@@ -34,10 +35,10 @@ Examples:
 -function -()
 
 💡 Characteristics:
-Feature	Description
-Stored in	Heap (with reference on Stack)
-Mutable?	✅ Mutable
-Compare by	Reference (memory address)
+Feature	        Description
+Stored in	    Heap (with reference on Stack)
+Mutable?	    Yes Mutable
+Compare by	    Reference (memory address)
 Copy behavior	Creates a reference to the same object
 */
 
